@@ -1,5 +1,5 @@
 {
-  "start": "react-scripts start --allowed-hosts=localhost,159.223.182.236",
+  "start": "HOST=0.0.0.0 PORT=3000 react-scripts start",
   "name": "client",
   "version": "0.1.0",
   "proxy": "http://159.223.182.236:80",
