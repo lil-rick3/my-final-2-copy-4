@@ -1,5 +1,4 @@
 {
-  "start": "HOST=0.0.0.0 react-scripts start",
   "name": "client",
   "version": "0.1.0",
   "proxy": "http://localhost:80",
@@ -21,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "start": "HOST=0.0.0.0 PORT=3000 react-scripts start",
   "eslintConfig": {
     "extends": [
       "react-app",
